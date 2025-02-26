@@ -1,14 +1,2 @@
 {
-"BUG-001": {
-  "type": "Internal",
-  "assertionPattern": ".*Expected: \"https:\\/\\/www.saucedemo.com\\/inventory.html\" Actual: was \"https:\\/\\/www.saucedemo.com\\/\".*",
-  "scenarioPattern": "Log in as Locked User",
-  "storyPattern": "Task_5"
-},
-  "BUG-002": {
-    "type": "Internal",
-    "assertionPattern": ".*Expected: number of elements is a value equal to <6> Actual: <0>.*",
-    "scenarioPattern": "Log in as Locked User",
-    "storyPattern": "Task_5"
-  }
 }
