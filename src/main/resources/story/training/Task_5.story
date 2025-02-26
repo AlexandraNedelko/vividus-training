@@ -1,6 +1,5 @@
 Scenario: Navigate to the website homepage
-Given I am on main application page
-When I take screenshot of Homepage
+When I open SauceDemo website
 
 Scenario: Log in as Locked User
 When I login with ${userName} and ${password}

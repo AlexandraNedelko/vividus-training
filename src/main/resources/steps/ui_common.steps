@@ -5,8 +5,8 @@ Then `${current-page-url}` is equal to `https://www.saucedemo.com/`
 When I take screenshot
 
 Composite: When I log in with $userName and $password
-When I enter `<userName>` in field located by `id(user-name)`  
-When I enter `<password>` in field located by `id(password)`  
+When I enter `<swagLockedUserName>` in field located by `id(user-name)`  
+When I enter `<swagPassword>` in field located by `id(password)`  
 When I take screenshot
 When I click on element located by `id(login-button)`
 
